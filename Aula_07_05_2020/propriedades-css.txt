@@ -1,0 +1,33 @@
+-> Para texto:
+color: Define a cor da fonte
+font-size: Estabelece o tamanho da fonte
+font-weight: Especifica a intensidade da fonte (ex: negrito)
+font-family: Define qual familia de fonte eu irei utilizar
+text-align: Define como o texto será alinhado
+text-decoration: define a formatação de underline, iverline, line-through ou blink
+line-height: altera o espaço das linhas de um texto
+font-style: define a escolha da fonte em normal, italic e oblique
+
+-> layout:
+background: um atalho que permite alterar o fundo da página, mudando a cor, o tamanho etc
+margin: define a margem nos quatro lados do elemento. é uma abreviação que define todas as margens de uma só vez.
+padding: define a "margem interna" do elemento. define uma ditância entre o conteudo de um elemento e suas bordas 
+position: serve para inserir a posição do elemento em uma determinada coordenada (Position Fixes), o position relative posiciona o elemento em relação a si mesmo, o position absolute envolve outro position que tenha uma coordenada definida (NÂO ENTENDI)
+display: ele controla o layout de cada elemento (NÂO ENTENDI)
+top: diz o posicionamento vertical do elemento de acordo com om topo. 
+bottom: determina o posicionamento do elemento de acordo com o parte inferior.
+left: define os valores de border-left-color, border-left-style, e border-left-width 
+right: define os valores de border-right-color, border-right-style e border-right-width
+height: permite alterar a altura da área do conteúdo de um elemento.
+width: permite alterar a largura da área de um elemento.
+float: determina que um elemento deve ser do seu fluxo normal e colocadoao longo do lado direito ou esquerdo (NÂO ENTENDI)
+border: ajusta os valores de propriedades individuais da borda em um único elemento na folha do estilo (NÂO ENTENDI)
+
+-> listas:
+list-style: usada para configurar list-style-type, list-stylre-image e list-style-position. 
+
+-> unidades
+px -> pixels
+pt -> pontos
+% -> porcentagem
+em -> tamanho padrão
