@@ -14,12 +14,16 @@
                 width: 100%;
                 height: 100%;
                 font-family: Arial, Helvetica, sans-serif;
-                font-size: 15px;
+                font-size: 14px;
                 background-color: #00ffff;
             }
             
             a{
                 text-decoration: none;
+            }
+
+            #titulo-pagina{
+                color:#0000ff
             }
 
             header{
@@ -62,9 +66,14 @@
                 padding: 25px;
                 border-radius: 10px;
 
+                /*
                 margin-left: 100px;
                 margin-right: 100px;
-                
+                */
+
+            }
+            .text-center{
+                text-align: center;
             }
 
             .container{
@@ -74,18 +83,142 @@
                 margin-left: auto;
                 margin-right: auto;
             }
-           
+
+            .titulo-site{
+                color: #4d2317
+            }
+
+            #barra{
+                height: 100px;
+                background-color: #0000ff;
+                width: 100%;
+                position: static;
+                top: 0;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                
+            }
+
+            .foto{
+                width: 150px;
+                padding: 20px;
+                position: absolute;
+            }
+            .foto img{
+                width: 100%;
+                border-radius: 50%;
+            }
+
+            .nome-desenvolvedor{
+                padding: 30px;
+                margin-left: 80px;
+            }
+            .nome-desenvolvedor h1{
+                font-size: 35px;
+                color: #ffffff;
+            }
+
+        .dados-desenvolvedor{
+            margin-top: 80px;
+            
+            border-left: 10px solid #4d2317;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            padding: 15px            
+        }
+
+        .dados-tabela{
+            padding: 10px;
+            padding-bottom: 15px;
+            text-align: left;
+        }
+
+        .dados-tabela a{
+            text-decoration: none;
+            color: #0000ff;
+            font-size: 15px;
+        }
+                       
         </style>
     </head>
 
     <body>
         <header>
+            
             <div class= "top">
-                <div class="logo">
-                    <img id="img-logo" src="img/logo.png" alt="Logo da página">
+                <div class="container">
+                    <div class="logo">
+                        <img id="img-logo" src="img/logo.png" alt="Logo da página">
+                    </div>
+                    <h1 class="name">
+                        <a id="titulo-pagina" href="https://www.tudogostoso.com.br" target="_blank">MINHAS RECEITAS</a>
+
+                    </h1>
                 </div>
-                <h1 class="name">Minhas receitas</h1>
             </div>
             <div class="barra"></div>
+           
+
         </header>
+
+        <div class= "container text-center">
+
+            <div class="card">
+                <h1 class="titulo-site">SOBRE O DESENVOLVEDOR</h1>
+            </div>
+
+            <div class="card">
+
+                <div id="barra">
+                    <div class="foto">
+                        <img src="img/desenvolvedor.jpg" alt="Foto do Desenvolvedor">
+                    </div>
+                    <div class="nome-desenvolvedor">
+                        <h1>Gabriel José Soto Ravanhan</h1>
+                    </div>
+                </div>       
+                        <div class="dados-desenvolvedor">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="img/email.png"/>
+                                    </td>
+                                    <td class="dados-tabela">
+                                        <a href="mailto:gabriel.ravanhan@etec.sp.gov.br">gabriel.ravanhan@sp.gov.br</a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <img src="img/github.png"/>
+                                    </td>
+                                    <td class="dados-tabela">
+                                        <a href="https://github.com/gabrielravanhan" target="_blank">https://github.com/gabrielravanhan</a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <img src="img/laptop.png"/>
+                                    </td>
+                                    <td class="dados-tabela">Técnico em Desenvolvimento de Sistemas Integrado ao Ensino Médio</td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <img src="img/home-city.png"/>
+                                    </td>
+                                    <td class="dados-tabela">Macatuba-SP</td>
+                                </tr>
+                                
+                        </table>
+                        </div>
+                    
+                
+            
+
+            </div>
+
+
+        </div>
     </body>
