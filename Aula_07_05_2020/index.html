@@ -1,97 +1,70 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Receitas do Gabriel</title>
-        <meta charset="UTF-8"/>
+<!doctype html>
+<html lang="en">
 
-        <style>
-            *{
-                margin: 0;
-                padding: 0;
-            }
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-            body{
-                width: 100%;
-                height: 100%;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 15px;
-                background-color: #00ffff;
-            }
-            
-            a{
-                text-decoration: none;
-            }
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-            header{
-                position:sticky;
-                top: 0;
-            }
+    <title>Receitas do Gabriel</title>
+</head>
 
-            .top{
-                background-color: #ffffff;
-                height: 80px;
-                text-align: center;
-            }
+<body class="bg-secondary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand text-dark" href="#">MINHAS RECEITAS</a>
 
-            .logo{
-                width: 150px;
-                padding: 5px;
-                float: left;
-            }
-
-            #img-logo{
-                width: 50%;
-                height: auto;
-            }
-
-            .name{
-                display: inline-block;
-                margin: 25px;
-                font-size: 305x;
-                color: #0000ff;
-            }
-
-            .barra{
-                background-color: #0000ff;
-                height: 25px;
-            }
-
-            .card{
-                margin-top: 15px;
-                background-color: #ffffff;
-                padding: 25px;
-                border-radius: 10px;
-
-                margin-left: 100px;
-                margin-right: 100px;
-                
-            }
-           
-        </style>
-
-    </head>
-    <body>
-        <header>
-            <div class= "top">
-                <div class="logo">
-                    <img id="img-logo" src="img/logo.png" alt="Logo da página">
-                </div>
-                <h1 class="name">MINHAS RECEITAS</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="#">Home </a>
+                <a class="nav-link" href="receitas_doces/index.html">Doces</a>
+                <a class="nav-link" href="receitas_salgadas/index.html">Salgados</a>
             </div>
-            <div class="barra"></div>
-        </header>
-        <div class="card">
-            <p>Escolha uma opção:</p>
-            <ul>
-                <a href="receitas_doces/index.html"><li>Receitas doces</li></a>
-                <a href="receitas_salgadas/index.html"><li>Receitas Salgadas</li></a>
-            </ul>
+        </div>
+    </nav>
+    </nav>
 
-            <a href="tabela_tags/index.html">Ir para atividade de tags</a>
+    <div class="container">
+        <div class="card mt-3">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="list-group">
+                            <a href="receitas_salgadas/index.html" class="list-group-item list-group-item-action">
+                                Receitas Salgadas
+                            </a>
+                            <a href="receitas_doces/index.html" class="list-group-item list-group-item-action">Receitas
+                                Doces</a>
+
+                        </div> <!-- Fim list group -->
+                    </div> <!-- Fim col 1 -->
+                    <div class="col">
+                        <img class="img-fluid" src="img/logo.png" alt="Logo do site">
+                    </div>
+                </div>
+            </div>
         </div>
-            <br/> <br/>
-        <div class="card">
-            <img src="img/animacao.gif" alt="Animação Pato Donald cozinhando.">
-        </div>
-    </body>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
