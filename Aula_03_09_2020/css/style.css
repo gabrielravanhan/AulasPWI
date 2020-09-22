@@ -1,0 +1,40 @@
+.capa {
+    height: 300px;
+    background: url("../img/ROCKY.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.img-perfil {
+    width: 175px;
+    margin-top: -175px;
+    border-radius: 100px;
+}
+
+.margin-Link {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+body{
+    background-color: #1E90FF;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.img-feed{
+    border-radius: 50%;
+    width: 40px;
+}
+
+.data-feed{
+    font-size: 12px;
+}
+
+.action{
+    font-weight: bold;
+    font-size: 18px;
+}
