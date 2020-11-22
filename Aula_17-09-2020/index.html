@@ -18,7 +18,7 @@
 <body>
 
   <nav class="navbar fixed-top navbar-expand-lg justify-content-center navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Diversão</a>
+    <a class="navbar-brand" href="index.html"><strong>DIVERSÃO</strong></a>
   </nav>
 
   <!--fim navbar-->
@@ -33,19 +33,19 @@
       <div class="carousel-item active">
         <img src="img/rocky4.jpg" class="d-block w-100" alt="Rocky IV">
         <div class="carousel-caption d-none d-md-block">
-          <h1>ROCKY IV</h1>
+          <h1><strong>ROCKY IV</strong></h1>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/AG7MIuc.jpg" class="d-block w-100" alt="Todo Mundo Odeia o Chris">
+        <img src="img/chris.jpg" class="d-block w-100" alt="Todo Mundo Odeia o Chris">
         <div class="carousel-caption d-none d-md-block">
-          <h1>TODO MUNDO ODEIA O CHRIS</h1>
+          <h1><strong>TODO MUNDO ODEIA O CHRIS</strong></h1>
         </div>
       </div>
       <div class="carousel-item">
         <img src="img/show.jpg" class="d-block w-100" alt="Apenas um Show">
         <div class="carousel-caption d-none d-md-block">
-          <h1>APENAS UM SHOW</h1>
+          <h1><strong>APENAS UM SHOW</strong></h1>
         </div>
       </div>
     </div>
@@ -62,23 +62,113 @@
   <!--fim carrossel-->
 
   <div class="container">
+    <div class="row">
+      <div class="col-md">
+        <div class="col-md">
+          <div class="card">
+            <button type="button" id="fundoPrimary" class="btn btn-primary">Página<br />Primary</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="col-md">
+          <div class="card">
+            <button type="button" id="fundoSecondary" class="btn btn-secondary">Página<br />Secundary</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="col-md">
+          <div class="card">
+            <button type="button" id="fundoSuccess" class="btn btn-success">Página<br />Success</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="col-md">
+          <div class="card">
+            <button type="button" id="fundoInfo" class="btn btn-info">Página<br />Info</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md">
+        <div class="col-md">
+          <div class="card">
+            <button type="button" id="fundoWarning" class="btn btn-warning">Página<br />Warning</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="col-md">
+          <div class="card">
+            <button type="button" id="fundoDanger" class="btn btn-danger">Página<br />Danger</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="col-md">
+          <div class="card">
+            <button type="button" id="fundoLight" class="btn btn-light">Página<br />Light</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="col-md">
+          <div class="card">
+            <button type="button" id="fundoDark" class="btn btn-dark">Página<br />Dark</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Fim botões-->
+
+  <br /><br />
+
+  <div class="container">
     <div class="container">
       <div class="alert alert-primary container" role="alert">
-        FILMES
+        <strong>FILMES</strong>
       </div>
     </div>
   </div>
 
   <!--fim alert filmes-->
 
-  <div class="container text-justify">
+  <div class="container">
+    <div class="row">
+      <div class="col-md">
+        <div class="col-md">
+          <div class="card">
+            <button id="ocultarFilmes" type="button" class="btn btn-primary">OCULTAR FILMES</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="col-md">
+          <div class="card">
+            <button id="exibirFilmes" type="button" class="btn btn-primary">EXIBIR FILMES</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--fim botões ocultar e exibir filmes-->
+
+  <br />
+
+  <div id="filmes" class="container text-justify">
     <div class="row">
       <div class="col-md">
         <div class="col-md">
           <div class="card">
             <img src="img/rocky-iv.jpg" class="card-img-top" alt="Imagem Rocky">
             <div class="card-body">
-              <h5 class="card-title">Rocky IV</h5>
+              <h5 class="card-title"><strong>Rocky IV</strong></h5>
               <p class="card-text">Durante uma luta de exibição, Apollo Creed, é impiedosamente espancado até a morte
                 por Ivan Drago. Assim, Rocky decide ir até a União Soviética para enfrentá-lo e vingar o amigo.</p>
               <a href="#" class="btn btn-secundary text-muted">View</a>
@@ -90,9 +180,9 @@
       <div class="col-md">
         <div class="col-md">
           <div class="card">
-            <img src="img/rambo37.jpg" class="card-img-top" alt="Imagem Rambo">
+            <img src="img/rambo3.jpg" class="card-img-top" alt="Imagem Rambo">
             <div class="card-body">
-              <h5 class="card-title">Rambo III</h5>
+              <h5 class="card-title"><strong>Rambo III</strong></h5>
               <p class="card-text">Rambo adota um novo estilo de vida, baseado na crença budista. No entanto, quando o
                 coronel Trautman é raptado pelos russos na fronteira, Rambo decide agir sozinho e por sua conta e risco.
               </p>
@@ -107,9 +197,9 @@
           <div class="card">
             <img src="img/terminator.jpg" class="card-img-top" alt="Imagem Terminator">
             <div class="card-body">
-              <h5 class="card-title">O Exterminador do Futuro 2</h5>
-              <p class="card-text">O jovem John Connor se torna alvo de T-1000, um exterminador que foi enviado do
-                futuro. Outro exterminador, o renovado T-800, também é enviado de volta ao passado para protegê-lo.</p>
+              <h5 class="card-title"><strong>O Exterminador do Futuro 2</strong></h5>
+              <p class="card-text">O jovem John Connor se torna alvo de T-1000, um exterminador. Outro exterminador,
+                o renovado T-800, também é enviado de volta ao passado, mas para protegê-lo.</p>
               <a href="#" class="btn btn-secundary text-muted">View</a>
               <p class="card-text margen"><small class="text-muted">156 mins</small></p>
             </div>
@@ -124,21 +214,44 @@
   <div class="container">
     <div class="container mt-5">
       <div class="alert alert-danger container" role="alert">
-        SÉRIES
+        <strong>SÉRIES</strong>
       </div>
     </div>
   </div>
 
-  <!--fim alert séries-->
+  <!--fim alert filmes-->
 
-  <div class="container text-justify">
+  <div class="container">
     <div class="row">
       <div class="col-md">
         <div class="col-md">
           <div class="card">
-            <img src="img/AG7MIuc.jpg" class="card-img-top" alt="Imagem Todo Mundo Odeia o Chris">
+            <button id="ocultarSeries" type="button" class="btn btn-danger">OCULTAR SÉRIES</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="col-md">
+          <div class="card">
+            <button id="exibirSeries" type="button" class="btn btn-danger">EXIBIR SÉRIES</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--fim botões ocultar e exibir séries-->
+
+  <br />
+
+  <div id="series" class="container text-justify">
+    <div class="row">
+      <div class="col-md">
+        <div class="col-md">
+          <div class="card">
+            <img src="img/chris.jpg" class="card-img-top" alt="Imagem Todo Mundo Odeia o Chris">
             <div class="card-body">
-              <h5 class="card-title">Todo Mundo Odeia o Chris</h5>
+              <h5 class="card-title"><strong>Todo Mundo Odeia o Chris</strong></h5>
               <p class="card-text">Chris é um adolescente crescendo no Broolkyn dos anos 80 com uma excêntrica família
                 composta pelo pai Julius, sua mãe Rochelle, sua irmã mimada Tonya e seu irmão Drew, que é bastante
                 popular.</p>
@@ -153,7 +266,7 @@
           <div class="card">
             <img src="img/maluco.jpg" class="card-img-top" alt="Imagem Um Maluco no Pedaço">
             <div class="card-body">
-              <h5 class="card-title">Um Maluco no Pedaço</h5>
+              <h5 class="card-title"><strong>Um Maluco no Pedaço</strong></h5>
               <p class="card-text">Will Smith mostra um retrato aproximado de sua vida real. Nessa comédia, sua mãe o
                 envia da Filadélfia para viver com o tios ricos Phil e Vivian em Bel-Air, Califórnia, onde vive se
                 divertindo com as trapalhadas dos primos Carlton e Hilary.</p>
@@ -166,9 +279,9 @@
       <div class="col-md">
         <div class="col-md">
           <div class="card">
-            <img src="img/kk.jpg" class="card-img-top" alt="Kenan & Kel">
+            <img src="img/kenan&kel.jpg" class="card-img-top" alt="Kenan & Kel">
             <div class="card-body">
-              <h5 class="card-title">Kenan & Kel</h5>
+              <h5 class="card-title"><strong>Kenan & Kel</strong></h5>
               <p class="card-text">Acompanhe as aventuras de amigos adolescentes sonhadores que estão sempre tramando
                 coisas. Kenan trabalha numa mercearia e tenta ficar rico. Kel, que adora refrigerante de laranja, sempre
                 acompanha o amigo.</p>
@@ -186,21 +299,44 @@
   <div class="container">
     <div class="container mt-5">
       <div class="alert alert-success container" role="alert">
-        DESENHOS
+        <strong>DESENHOS</strong>
       </div>
     </div>
   </div>
 
   <!--fim alert desenhos-->
 
-  <div class="container text-justify">
+  <div class="container">
+    <div class="row">
+      <div class="col-md">
+        <div class="col-md">
+          <div class="card">
+            <button id="ocultarDesenhos" type="button" class="btn btn-success">OCULTAR DESENHOS</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="col-md">
+          <div class="card">
+            <button id="exibirDesenhos" type="button" class="btn btn-success">EXIBIR DESENHOS</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--fim botões ocultar e exibir desenhos-->
+
+  <br />
+
+  <div id="desenhos" class="container text-justify">
     <div class="row">
       <div class="col-md">
         <div class="col-md">
           <div class="card">
             <img src="img/show.jpg" class="card-img-top" alt="Imagem Apenas um Show">
             <div class="card-body">
-              <h5 class="card-title">Apenas um Show</h5>
+              <h5 class="card-title"><strong>Apenas um Show</strong></h5>
               <p class="card-text">Mordecai e Rigby são guardas de um parque. Mas esses melhores amigos são preguiçosos
                 e não deixam o trabalho interferir com sua capacidade de se divertir. Enquanto Mordecai tenta ser
                 responsável e fazer um bom trabalho, é frequentemente desencaminhado por seu imaturo companheiro Rigby.
@@ -216,7 +352,7 @@
           <div class="card">
             <img src="img/bob.jpg" class="card-img-top" alt="Imagem Bob Esponja">
             <div class="card-body">
-              <h5 class="card-title">Bob Esponja</h5>
+              <h5 class="card-title"><strong>Bob Esponja</strong></h5>
               <p class="card-text">Uma esponja-do-mar chamada Bob Esponja Calça Quadrada mora com seu caracol de
                 estimação na Fenda do Biquíni, no fundo do oceano. Bob trabalha no Siri Cascudo e, nas horas vagas, vive
                 arrumando confusões com seu melhor amigo, a estrela-do-mar Patrick.</p>
@@ -231,7 +367,7 @@
           <div class="card">
             <img src="img/simp.jpg" class="card-img-top" alt="Imagem Os Simpsons">
             <div class="card-body">
-              <h5 class="card-title">Os Simpsons</h5>
+              <h5 class="card-title"><strong>Os Simpsons</strong></h5>
               <p class="card-text">Homer, não é um típico homem de família. Empregado de uma usina nuclear, ele faz o
                 melhor para comandar sua família, mas frequentemente se vê comandado. A família inclui ainda a carinhosa
                 mãe de cabelo azul Marge, o filho encrenqueiro Bart, a talentosa filha Lisa e a bebê Maggie.</p>
@@ -246,6 +382,33 @@
 
   <!--fim desenhos-->
 
+  <br /><br /><br />
+
+  <div class="container">
+    <div class="container">
+      <h3><strong>Formulário</strong></h3>
+
+      <form>
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" class="form-control" id="nome">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" class="form-control"></textarea>
+        </div>
+
+        <button type="button" id="enviar" class="btn btn-dark">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <!--fim formulário-->
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -257,6 +420,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
