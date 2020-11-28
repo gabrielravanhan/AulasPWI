@@ -56,4 +56,4 @@ $('#exibirDesenhos').click(function () {
 
 $('#enviar').click(function(){
     alert("Nome: " + $('#nome').val() +"\nE-mail: " + $('#email').val() +"\nMensagem: " + $('#mensagem').val());
-});
+}); 
